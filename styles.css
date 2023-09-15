@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo&family=DM+Serif+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo&family=DM+Serif+Display:ital@1&family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo&family=DM+Serif+Display:ital@1&family=Dancing+Script&family=Lobster&display=swap');
+body{
+    margin:0;
+    background-image:url(resourses/fl.jpeg);
+    background-color:white;
+
+}
+/* ----------------------------------------------HEAD----------------------------------------------------------------- */
+header {
+    position:relative;
+    width:100%;
+    height:300px;
+    background-image:url(resourses/head-3.png);
+    background-size:100% 250px;
+    background-position:45% 45%;
+    margin-bottom:2em;
+}
+header:before{
+    content:"";
+    position:absolute;
+    width:100%;
+    height:300px;
+    background:linear-gradient(rgba(255, 255, 255, 0) 60%,white)
+}
+.background-text-title{
+    background-color:#fcc8d174;
+}
+.background-text-title h1{
+    font-family: 'Aleo', serif;
+    font-family: 'DM Serif Display', serif;
+    font-size:10em;
+    margin:0;
+    color:black;
+    text-shadow:2px 2px 10px white;
+}
+
+/* ---------------------------------------------------NAV------------------------------------------------------- */
+nav {
+    width:100%;
+    height:auto;
+}
+nav a{
+    font-size:2em;
+    font-family: 'Aleo', serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'DM Serif Display', serif;
+    padding:1em;
+    border-radius:0.5em;
+    margin:4px;
+    text-decoration:none;
+    color:white;
+    background-color:#ca6494  ;
+    transition:background-color,box-shadow 200ms;
+    box-shadow:0px 0px 5px white;
+}
+nav a:hover{
+    background-color:#ca6494;
+    box-shadow:0px 0px 10px #FFABAB;
+}
+/* ----------------------------------------------------------SECTION------------------------------------------------------ */
+.title-about {
+    background-color: #ca6494cc;
+    color:white;
+    text-shadow:0px 0px 10px #D14D72;
+    width:100%;
+    height: auto;
+    margin-top:70px;
+    margin-bottom:20px;
+}
+section {
+    width:100%;
+    height:370px;
+    background-color: #ca649441;
+    box-shadow:0px 0px 10px #FFABAB;
+    text-align:center;
+    box-sizing:border-box;
+    overflow:hidden;
+}
+section p {
+    font-family: 'Aleo', serif;
+    font-family: 'DM Serif Display', serif;
+    font-size:2em;
+    font-weight: bolder;
+    padding:40px;
+    padding-top:10px;
+    margin:auto;
+}
+/* ----------------------------------------------------------ARTICLE---------------------------------------------------- */
+article{
+    position:relative;
+    width:100%;
+    height:500px;
+    background-color: #ca649441;
+    box-shadow:0px 0px 15px rgb(195, 39, 65);
+}
+article .flechas{
+    position:absolute;
+    font-size: 2em;
+    top:92%;
+    left:50%;
+}
+.clientes {
+    display:flex;
+    flex-wrap: nowrap;
+    overflow:scroll;
+}
+.clientes div{
+    flex: 1 0 auto;
+    margin:50px 50px;
+    width: 400px;
+    height: 400px;
+}
+.img1{
+    background-image:url(resourses/clients/cliente1.jpeg);
+    background-size:cover;
+    border: 4px solid white;
+    background-position:50% 70%;
+}
+.img2{
+    background-image:url(resourses/clients/cliente2.jpeg);
+    background-size:cover;
+    border: 4px solid white; 
+    background-position:50% 90%;
+}
+.img3 {
+    background-image:url(resourses/clients/cliente3.jpeg);
+    background-size:cover;
+    border: 4px solid white; 
+}
+.img4 {
+    background-image:url(resourses/clients/cliente4.jpeg);
+    background-size:cover;
+    border: 4px solid white;
+    background-position:50% 90%; 
+}
+.img5{
+    background-image:url(resourses/clients/cliente5.jpeg);
+    background-size:cover;
+    border: 4px solid white; 
+}
+.img6 {
+    background-image:url(resourses/clients/cliente6.jpeg);
+    background-size:cover;
+    border: 4px solid white;
+     
+}
+.img7 {
+    background-image:url(resourses/clients/cliente7.jpeg);
+    background-size:cover;
+    border: 4px solid white; 
+    background-position:10% 90%;
+}
+
+.img8{
+    background-image:url(resourses/clients/cliente8.jpeg);
+    background-size:cover;
+    border: 4px solid white; 
+    background-position:10% 90%;
+}
+.img9{
+        background-image:url(resourses/clients/cliente9.jpeg);
+        background-size:cover;
+        background-position:30% 90%;
+        border: 4px solid white; 
+        background-position:30% 90%;
+}
+.img10{
+    background-image:url(resourses/clients/cliente10.jpeg);
+    background-size:cover;
+    background-position:50% 90%;
+    border: 4px solid white; 
+}
+.img11{
+    background-image:url(resourses/clients/cliente11.jpg);
+    background-size:cover;
+    border: 4px solid white; 
+}
+.title-client{
+    color:white;
+    background-color: #ca6494cc;
+    text-shadow:0px 0px 10px #D14D72;
+    width:100%;
+    height: auto;
+    margin-top:70px;
+    margin-bottom:20px;
+}
+/* ---------------------------------------------------------ASIDE-------------------------------------------------- */
+.title-cost{
+    background-color: #ca6494cc;
+    color:white;
+    text-shadow:0px 0px 10px #D14D72;
+    width:100%;
+    height: auto;
+    margin-top:30px;
+    margin-bottom:40px;
+}
+aside{
+    width:100%;
+    height:600px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.precios {
+    background-image:url(resourses/precios.jpeg);
+    background-size:100% 600px;
+    width:100%;
+    height: 600px;
+    box-shadow:0px 0px 25px  #bc4e77 ;
+}
+/* ------------------------------------FOOTER--------------------------------------------------------------- */
+
+.precios-2{
+    width:100%;
+    height: 500px;
+    background-color: #a90c55cc;
+    
+}
+
+.title-contact{
+    font-size:3em;
+    background-color: #ca6494cc;
+    color:white;
+    text-shadow:0px 0px 10px #D14D72;
+}
+
+.background-precios-2{
+    width: 100%;
+    height: 100%;
+    background-image: url("./resourses/precios-2.jpg");
+    background-size:400px;
+    background-position: 50% 45%;
+    background-repeat: no-repeat;
+}
+footer {
+    width:100%;
+    height: 400px;
+    background-image:url(resourses/footer-2.png);
+    background-size:cover;
+}
+footer img{
+    width:80px;
+    height: 80px;
+}
+.footer{
+    background-color:#9b456d;
+    text-align: center;
+}
+.zone {
+    justify-content: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
